@@ -1,0 +1,6 @@
+com\wp\controller\PostController.class
+com\wp\controller\UserController.class
+com\wp\dao\PostDao.class
+com\wp\dao\UserDao.class
+com\wp\model\User.class
+com\wp\model\Post.class
