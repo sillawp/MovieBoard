@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>testboard</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>BoardServlet</display-name>
+    <servlet-name>BoardServlet</servlet-name>
+    <servlet-class>com.board.BoardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BoardServlet</servlet-name>
+    <url-pattern>/board</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PostDTO</display-name>
+    <servlet-name>PostDTO</servlet-name>
+    <servlet-class>com.wp.movie.PostDTO</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostDTO</servlet-name>
+    <url-pattern>/PostDTO</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserListServlet</display-name>
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>com.wp.movie.UserListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/UserListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsesrDetailServlet</display-name>
+    <servlet-name>UsesrDetailServlet</servlet-name>
+    <servlet-class>com.wp.movie.UsesrDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsesrDetailServlet</servlet-name>
+    <url-pattern>/UsesrDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserDeleteServlet</display-name>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <servlet-class>com.wp.movie.UserDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <url-pattern>/UserDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FindAccountServlet</display-name>
+    <servlet-name>FindAccountServlet</servlet-name>
+    <servlet-class>com.wp.movie.FindAccountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FindAccountServlet</servlet-name>
+    <url-pattern>/findAccountServlet</url-pattern>
+</servlet-mapping>
+</web-app>
